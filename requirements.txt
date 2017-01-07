@@ -1,0 +1,13 @@
+# =================== Main dependencies =========================
+Django==1.10.4                                  # Main Framework
+psycopg2==2.6.2                                 # PostgreSQL support
+Pillow==3.4.2
+
+# ================  Additional dependencies ======================
+coverage==4.2                                   # CI tools for analytics
+django-debug-toolbar==1.6                       # Debug tool
+whitenoise==3.2.2                               # Serving Static files.
+raven                                           # Sentry integration
+
+# ======================  Testing ================================
+freezegun==0.3.8
