@@ -51,7 +51,7 @@ RAVEN_CONFIG = {
 TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = [
-    'blog.juanwolf.fr', "juanwolf.fr", "resume.juanwolf.fr", "127.0.0.1",
+    "juanwolf.fr", "resume.juanwolf.fr", "127.0.0.1",
     'localhost'
 ]
 
@@ -59,7 +59,6 @@ INTERNAL_IPS = ['127.0.0.1', '0.0.0.0']
 
 # Application definition
 INSTALLED_APPS = (
-    'modeltranslation',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,12 +68,6 @@ INSTALLED_APPS = (
     'django.contrib.syndication',
     'django.contrib.sites',
     'django.contrib.sitemaps',
-    'django_summernote',
-    'django_jenkins',
-    'blogengine',
-    'resume',
-    'rest_framework',
-    'rest_framework_swagger',
 )
 
 if SENTRY_USED:
@@ -170,7 +163,6 @@ TEMPLATES = [
                 'django.template.context_processors.static',
                 'django.template.context_processors.tz',
                 'django.contrib.messages.context_processors.messages',
-                'blogengine.template_context_preprocessor.get_categories'
             ]
         }
     },
@@ -191,28 +183,6 @@ LOGGING = {
             'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
         },
     },
-}
-
-# Summernote configuration
-SUMMERNOTE_CONFIG = {
-    # Using SummernoteWidget - iframe mode
-    'iframe': True,
-
-    # Using Summernote Air-mode
-    'airMode': False,
-
-    # Change editor size
-    'width': '100%',
-    'height': '650',
-
-    # Or, set editor language/locale forcely
-    'lang': 'fr-FR',
-    'external_js': (
-        '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'
-    ),
-    'internal_js': (
-        '/static/js/main.min.js',
-    )
 }
 
 # CUSTOM
