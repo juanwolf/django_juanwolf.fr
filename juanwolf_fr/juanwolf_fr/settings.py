@@ -68,6 +68,7 @@ INSTALLED_APPS = (
     'django.contrib.syndication',
     'django.contrib.sites',
     'django.contrib.sitemaps',
+    'resume',
 )
 
 if SENTRY_USED:
