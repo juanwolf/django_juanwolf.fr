@@ -13,7 +13,6 @@ import os
 
 from datetime import date
 
-
 ##############################################################################
 #                              ENV VARIABLES                                 #
 ##############################################################################
@@ -21,6 +20,7 @@ from datetime import date
 DEBUG = os.environ.get('DEBUG', False)
 
 SECRET_KEY = os.environ.get('SECRET_KEY', 'qwerty1234567890')
+ALLOWED_HOSTS_STRING = os.environ.get('ALLOWED_HOSTS', '*')
 
 DATABASE_USER = os.environ.get('DATABASE_USER', 'postgres')
 DATABASE_NAME = os.environ.get('DATABASE_NAME', 'postgres')
@@ -50,11 +50,7 @@ RAVEN_CONFIG = {
 
 TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = [
-    "juanwolf.fr", "resume.juanwolf.fr", "127.0.0.1",
-    'localhost'
-]
-
+ALLOWED_HOSTS = ALLOWED_HOSTS_STRING.split(',')
 INTERNAL_IPS = ['127.0.0.1', '0.0.0.0']
 
 # Application definition
