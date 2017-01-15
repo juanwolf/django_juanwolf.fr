@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-17 17:36+0000\n"
+"POT-Creation-Date: 2017-01-15 19:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,119 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: blogengine/models.py:52
-msgid "categories"
-msgstr "categories"
-
-#: blogengine/templates/category_detail.html:21
-msgid "There's no post in this category for the moment"
-msgstr "There's no post in this category for the moment"
-
-#: blogengine/templates/category_detail.html:22
-#: blogengine/templates/post_list.html:8
-#: blogengine/templates/tag_detail.html:22
-msgid "All our engineers are working on it. We'll fix this problem soon."
-msgstr "All our engineers are working on it. We'll fix this problem soon."
-
-#: blogengine/templates/category_list.html:3
-#: juanwolf_fr/templates/navbar.html:8
-msgid "Home"
-msgstr "Home"
-
-#: blogengine/templates/includes/base.html:9 resume/templates/resume.html:131
-msgid "juanwolf's blog"
-msgstr "juanwolf's blog"
-
-#: blogengine/templates/includes/base.html:13
-#: blogengine/templates/includes/base.html:20
-#: blogengine/templates/includes/base.html:24
-msgid "A blog about Software Engineering, video-games"
-msgstr "A blog about Software Engineering and video-games"
-
-#: blogengine/templates/includes/base_post.html:6
-msgid "Category:"
-msgstr "Category:"
-
-#: blogengine/templates/includes/base_post.html:9
-msgid "Tags:"
-msgstr "Tags:"
-
-#: blogengine/templates/includes/post_template.html:14
-msgid ""
-"Thanks for reading this article ! Don't hesitate to leave your opinion in "
-"the section bellow or if you feel generous here's my"
-msgstr ""
-"Thanks for reading this article ! Don't hesitate to leave your opinion in "
-"the section bellow or if you feel generous here's my "
-
-#: blogengine/templates/includes/post_template.html:36
-msgid "Please enable JavaScript to view the "
-msgstr "Please enable JavaScript to view the"
-
-#: blogengine/templates/includes/post_template.html:36
-msgid "comments powered by Disqus."
-msgstr "comments powered by Disqus."
-
-#: blogengine/templates/includes/post_template.html:37
-msgid "comments powered by"
-msgstr "comment powered by"
-
-#: blogengine/templates/includes/post_template.html:40
-msgid "Previous post"
-msgstr "Previous post"
-
-#: blogengine/templates/includes/post_template.html:46
-msgid "Next post"
-msgstr "Newer posts"
-
-#: blogengine/templates/page_not_found.html:5
-msgid "HEY, WHAT ARE YOU DOING HERE ?!!"
-msgstr "HEY, WHAT ARE YOU DOING HERE ?!!"
-
-#: blogengine/templates/page_not_found.html:7
-msgid "My pandas are watching you"
-msgstr "My pandas are watching you"
-
-#: blogengine/templates/page_not_found.html:10
-msgid ""
-"My pandas saw you going to a bad URL, it's ok for this time but try not to "
-"do it again."
-msgstr ""
-"My pandas saw you going to a bad URL, it's ok for this time but try not to "
-"do it again."
-
-#: blogengine/templates/post_list.html:7
-msgid "There's no post for the moment"
-msgstr "There's no post for the moment"
-
-#: blogengine/templates/post_list.html:14
-msgid "Newer posts"
-msgstr "Newer posts"
-
-#: blogengine/templates/post_list.html:19
-msgid "Older posts"
-msgstr "Older posts"
-
-#: blogengine/templates/post_preview_template.html:7
-msgid "Preview Image for the article : "
-msgstr "Preview Image for the article: "
-
-#: blogengine/templates/post_preview_template.html:15
-msgid "Read this post"
-msgstr "Read this post"
-
-#: blogengine/templates/tag_detail.html:21
-msgid "There's no post for this tag for the moment"
-msgstr "There's no post for this tag for the moment"
-
-#: blogengine/views.py:168
-msgid "RSS feed - posts"
-msgstr "RSS feed - posts"
-
-#: blogengine/views.py:170
-msgid "RSS feed - blog posts"
-msgstr "RSS feed - blog posts"
 
 #: juanwolf_fr/templates/about.html:12 juanwolf_fr/templates/about.html:20
 #: juanwolf_fr/templates/footer-section.html:4
@@ -217,7 +104,7 @@ msgstr ""
 msgid "Welcome dear Websurfer !"
 msgstr ""
 
-#: juanwolf_fr/templates/index.html:38
+#: juanwolf_fr/templates/index.html:39
 #, python-format
 msgid ""
 "I'm Jean-Loup Adde, a %(age)s year old software developer at <a href="
@@ -227,14 +114,14 @@ msgid ""
 "      For example the chat section uses node.js (it's down for the moment "
 "for security issues), the blog section uses django, I'll not list them all.\n"
 "      I really enjoyed making this website and I have written everything "
-"that I have used to make this website on the <a href=\"https://about."
-"juanwolf.fr\">'About' section</a>.\n"
+"that I have used to make this website on the <a href=\"%(about_url)s"
+"\">'About' section</a>.\n"
 "      If you are interested and have any questions about anything or just to "
 "say hi do not hesitate to send me a message or a little tweet, I will "
 "appreciate it!"
 msgstr ""
 
-#: juanwolf_fr/templates/index.html:46
+#: juanwolf_fr/templates/index.html:47
 msgid ""
 "This website is totally free and will never use adverts to make profits.\n"
 "      If you want to contribute of the survey of this website, I created a "
@@ -245,19 +132,23 @@ msgid ""
 "but you can also participate giving me articles ideas or video games to try !"
 msgstr ""
 
-#: juanwolf_fr/templates/index.html:50
+#: juanwolf_fr/templates/index.html:51
 msgid ""
 "The chat is not available for the moment (coming soon, hopefully). "
 "Currently, on this (awesome) website, you will be able to find:"
 msgstr ""
 
-#: juanwolf_fr/templates/index.html:60
+#: juanwolf_fr/templates/index.html:61
 msgid "My blog"
 msgstr ""
 
-#: juanwolf_fr/templates/index.html:69
+#: juanwolf_fr/templates/index.html:70
 msgid "My resume"
 msgstr ""
+
+#: juanwolf_fr/templates/navbar.html:8
+msgid "Home"
+msgstr "Home"
 
 #: juanwolf_fr/templates/navbar.html:20
 msgid "Resume"
@@ -470,6 +361,10 @@ msgstr ""
 #: resume/templates/resume.html:128
 msgid "Technologies used: Golang, javascript, git"
 msgstr ""
+
+#: resume/templates/resume.html:131
+msgid "juanwolf's blog"
+msgstr "juanwolf's blog"
 
 #: resume/templates/resume.html:133
 msgid "A blog where I write my own technical reviews and video games articles."
@@ -691,6 +586,83 @@ msgstr ""
 #: resume/templates/resume.html:516
 msgid "Experimenting with and using new technologies"
 msgstr ""
+
+#~ msgid "categories"
+#~ msgstr "categories"
+
+#~ msgid "There's no post in this category for the moment"
+#~ msgstr "There's no post in this category for the moment"
+
+#~ msgid "All our engineers are working on it. We'll fix this problem soon."
+#~ msgstr "All our engineers are working on it. We'll fix this problem soon."
+
+#~ msgid "A blog about Software Engineering, video-games"
+#~ msgstr "A blog about Software Engineering and video-games"
+
+#~ msgid "Category:"
+#~ msgstr "Category:"
+
+#~ msgid "Tags:"
+#~ msgstr "Tags:"
+
+#~ msgid ""
+#~ "Thanks for reading this article ! Don't hesitate to leave your opinion in "
+#~ "the section bellow or if you feel generous here's my"
+#~ msgstr ""
+#~ "Thanks for reading this article ! Don't hesitate to leave your opinion in "
+#~ "the section bellow or if you feel generous here's my "
+
+#~ msgid "Please enable JavaScript to view the "
+#~ msgstr "Please enable JavaScript to view the"
+
+#~ msgid "comments powered by Disqus."
+#~ msgstr "comments powered by Disqus."
+
+#~ msgid "comments powered by"
+#~ msgstr "comment powered by"
+
+#~ msgid "Previous post"
+#~ msgstr "Previous post"
+
+#~ msgid "Next post"
+#~ msgstr "Newer posts"
+
+#~ msgid "HEY, WHAT ARE YOU DOING HERE ?!!"
+#~ msgstr "HEY, WHAT ARE YOU DOING HERE ?!!"
+
+#~ msgid "My pandas are watching you"
+#~ msgstr "My pandas are watching you"
+
+#~ msgid ""
+#~ "My pandas saw you going to a bad URL, it's ok for this time but try not "
+#~ "to do it again."
+#~ msgstr ""
+#~ "My pandas saw you going to a bad URL, it's ok for this time but try not "
+#~ "to do it again."
+
+#~ msgid "There's no post for the moment"
+#~ msgstr "There's no post for the moment"
+
+#~ msgid "Newer posts"
+#~ msgstr "Newer posts"
+
+#~ msgid "Older posts"
+#~ msgstr "Older posts"
+
+#~ msgid "Preview Image for the article : "
+#~ msgstr "Preview Image for the article: "
+
+#~ msgid "Read this post"
+#~ msgstr "Read this post"
+
+#~ msgid "There's no post for this tag for the moment"
+#~ msgstr "There's no post for this tag for the moment"
+
+#~ msgid "RSS feed - posts"
+#~ msgstr "RSS feed - posts"
+
+#~ msgid "RSS feed - blog posts"
+#~ msgstr "RSS feed - blog posts"
 
 #~ msgid "Comments"
 #~ msgstr "Comments"

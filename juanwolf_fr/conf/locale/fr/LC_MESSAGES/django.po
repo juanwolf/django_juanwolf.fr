@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-17 17:36+0000\n"
+"POT-Creation-Date: 2017-01-15 19:14+0000\n"
 "PO-Revision-Date: 2016-12-17 17:15+0000\n"
 "Last-Translator: Bernard de la compta <bernard@de.la.compta>\n"
 "Language-Team: FR\n"
@@ -15,124 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: blogengine/models.py:52
-msgid "categories"
-msgstr "Catégories"
-
-#: blogengine/templates/category_detail.html:21
-msgid "There's no post in this category for the moment"
-msgstr "Il n'y a pas d'article pour cette catégorie pour le moment"
-
-#: blogengine/templates/category_detail.html:22
-#: blogengine/templates/post_list.html:8
-#: blogengine/templates/tag_detail.html:22
-msgid "All our engineers are working on it. We'll fix this problem soon."
-msgstr ""
-"Nos ingénieurs sont en train de plancher dessus. Ce problème sera résolu "
-"rapidement."
-
-#: blogengine/templates/category_list.html:3
-#: juanwolf_fr/templates/navbar.html:8
-msgid "Home"
-msgstr "Accueil"
-
-#: blogengine/templates/includes/base.html:9 resume/templates/resume.html:131
-msgid "juanwolf's blog"
-msgstr "Blog de juanwolf"
-
-#: blogengine/templates/includes/base.html:13
-#: blogengine/templates/includes/base.html:20
-#: blogengine/templates/includes/base.html:24
-msgid "A blog about Software Engineering, video-games"
-msgstr ""
-"Un blog sur la conception logicielle et ses outils ainsi que sur les jeux-"
-"vidéos"
-
-#: blogengine/templates/includes/base_post.html:6
-msgid "Category:"
-msgstr "Catégorie :"
-
-#: blogengine/templates/includes/base_post.html:9
-msgid "Tags:"
-msgstr "Tags :"
-
-#: blogengine/templates/includes/post_template.html:14
-msgid ""
-"Thanks for reading this article ! Don't hesitate to leave your opinion in "
-"the section bellow or if you feel generous here's my"
-msgstr ""
-"Merci d'avoir lu cet article !  N'hésitez pas à laisser votre avis dans les "
-"commentaires ci-dessous ou si vous vous sentez généreux et prêt à être "
-"gracieusement remercié de ma part, voici mon "
-
-#: blogengine/templates/includes/post_template.html:36
-msgid "Please enable JavaScript to view the "
-msgstr "Veuillez activer JavaScript pour voir les"
-
-#: blogengine/templates/includes/post_template.html:36
-msgid "comments powered by Disqus."
-msgstr "Commentaires fournis par Disqus."
-
-#: blogengine/templates/includes/post_template.html:37
-msgid "comments powered by"
-msgstr "Commentaires fournis par"
-
-#: blogengine/templates/includes/post_template.html:40
-msgid "Previous post"
-msgstr "Article précédent"
-
-#: blogengine/templates/includes/post_template.html:46
-msgid "Next post"
-msgstr "Article suivant"
-
-#: blogengine/templates/page_not_found.html:5
-msgid "HEY, WHAT ARE YOU DOING HERE ?!!"
-msgstr "HEY, QU'EST QUE TU FAIS ICI ?!!"
-
-#: blogengine/templates/page_not_found.html:7
-msgid "My pandas are watching you"
-msgstr "Mes pandas vous regardent."
-
-#: blogengine/templates/page_not_found.html:10
-msgid ""
-"My pandas saw you going to a bad URL, it's ok for this time but try not to "
-"do it again."
-msgstr ""
-"Mes pandas vous ont vu vous rendre sur une mauvaise URL, ça ira pour cette "
-"fois mais que ça ne se reproduise pas."
-
-#: blogengine/templates/post_list.html:7
-msgid "There's no post for the moment"
-msgstr "Il n'y a pas d'article disponible pour le moment"
-
-#: blogengine/templates/post_list.html:14
-msgid "Newer posts"
-msgstr "Nouveaux articles"
-
-#: blogengine/templates/post_list.html:19
-msgid "Older posts"
-msgstr "Anciens articles"
-
-#: blogengine/templates/post_preview_template.html:7
-msgid "Preview Image for the article : "
-msgstr "Image d'affiche pour l'article : "
-
-#: blogengine/templates/post_preview_template.html:15
-msgid "Read this post"
-msgstr "Lire cet article"
-
-#: blogengine/templates/tag_detail.html:21
-msgid "There's no post for this tag for the moment"
-msgstr "Il n'y a pas d'article lié à ce tag pour le moment"
-
-#: blogengine/views.py:168
-msgid "RSS feed - posts"
-msgstr "Flux RSS - Articles"
-
-#: blogengine/views.py:170
-msgid "RSS feed - blog posts"
-msgstr "Flux RSS - Articles du blog"
 
 #: juanwolf_fr/templates/about.html:12 juanwolf_fr/templates/about.html:20
 #: juanwolf_fr/templates/footer-section.html:4
@@ -242,7 +124,7 @@ msgstr ""
 msgid "Welcome dear Websurfer !"
 msgstr "Bienvenue cher surfeur de la toile !"
 
-#: juanwolf_fr/templates/index.html:38
+#: juanwolf_fr/templates/index.html:39
 #, python-format
 msgid ""
 "I'm Jean-Loup Adde, a %(age)s year old software developer at <a href="
@@ -252,8 +134,8 @@ msgid ""
 "      For example the chat section uses node.js (it's down for the moment "
 "for security issues), the blog section uses django, I'll not list them all.\n"
 "      I really enjoyed making this website and I have written everything "
-"that I have used to make this website on the <a href=\"https://about."
-"juanwolf.fr\">'About' section</a>.\n"
+"that I have used to make this website on the <a href=\"%(about_url)s"
+"\">'About' section</a>.\n"
 "      If you are interested and have any questions about anything or just to "
 "say hi do not hesitate to send me a message or a little tweet, I will "
 "appreciate it!"
@@ -263,12 +145,13 @@ msgstr ""
 "grande passion pour toutes les technologies autour du web, dev logiciel, "
 "intégration continue. D'ailleurs mon site est en quelques sortes mon "
 "laboratoire pour tester ces nouvelles technologies. Le chat est en node.js "
-"(qui n'est pas disponible due à quelques failles de sécurité, je l'ai remplacé par RocketChat), le blog est "
-"en django, tout ça relié à un jenkins pour déployer chaque nouvelle feature, "
-"etc... Si vous voulez en savoir plus sur les technologies utilisées, la "
-"section 'à propos' est là pour répondre à toutes vos questions !"
+"(qui n'est pas disponible due à quelques failles de sécurité, je l'ai "
+"remplacé par RocketChat), le blog est en django, tout ça relié à un jenkins "
+"pour déployer chaque nouvelle feature, etc... Si vous voulez en savoir plus "
+"la <a href=\"%(about_url)s\">section 'à propos'</a> est là pour répondre à "
+"toutes vos questions !"
 
-#: juanwolf_fr/templates/index.html:46
+#: juanwolf_fr/templates/index.html:47
 msgid ""
 "This website is totally free and will never use adverts to make profits.\n"
 "      If you want to contribute of the survey of this website, I created a "
@@ -288,19 +171,25 @@ msgstr ""
 "pouvez aussi contribuer en me donnant des idées de jeux à tester ou des "
 "idées d'articles à rédiger."
 
-#: juanwolf_fr/templates/index.html:50
+#: juanwolf_fr/templates/index.html:51
 msgid ""
 "The chat is not available for the moment (coming soon, hopefully). "
 "Currently, on this (awesome) website, you will be able to find:"
-msgstr "Le chat n'est pas disponible pour le moment (je suis à la traine :S). Vous pourrez trouver sur ce (magnifique) site :"
+msgstr ""
+"Le chat n'est pas disponible pour le moment (je suis à la traine :S). Vous "
+"pourrez trouver sur ce (magnifique) site :"
 
-#: juanwolf_fr/templates/index.html:60
+#: juanwolf_fr/templates/index.html:61
 msgid "My blog"
 msgstr "Mon blog"
 
-#: juanwolf_fr/templates/index.html:69
+#: juanwolf_fr/templates/index.html:70
 msgid "My resume"
 msgstr "Mon CV"
+
+#: juanwolf_fr/templates/navbar.html:8
+msgid "Home"
+msgstr "Accueil"
 
 #: juanwolf_fr/templates/navbar.html:20
 msgid "Resume"
@@ -557,6 +446,10 @@ msgstr ""
 #: resume/templates/resume.html:128
 msgid "Technologies used: Golang, javascript, git"
 msgstr "Technologies utilisées : Golang, JS, git"
+
+#: resume/templates/resume.html:131
+msgid "juanwolf's blog"
+msgstr "Blog de juanwolf"
 
 #: resume/templates/resume.html:133
 msgid "A blog where I write my own technical reviews and video games articles."
@@ -829,6 +722,88 @@ msgstr "Sports (Tennis, football, course à pieds 5km, 10km)"
 #: resume/templates/resume.html:516
 msgid "Experimenting with and using new technologies"
 msgstr "Veille technologique"
+
+#~ msgid "categories"
+#~ msgstr "Catégories"
+
+#~ msgid "There's no post in this category for the moment"
+#~ msgstr "Il n'y a pas d'article pour cette catégorie pour le moment"
+
+#~ msgid "All our engineers are working on it. We'll fix this problem soon."
+#~ msgstr ""
+#~ "Nos ingénieurs sont en train de plancher dessus. Ce problème sera résolu "
+#~ "rapidement."
+
+#~ msgid "A blog about Software Engineering, video-games"
+#~ msgstr ""
+#~ "Un blog sur la conception logicielle et ses outils ainsi que sur les jeux-"
+#~ "vidéos"
+
+#~ msgid "Category:"
+#~ msgstr "Catégorie :"
+
+#~ msgid "Tags:"
+#~ msgstr "Tags :"
+
+#~ msgid ""
+#~ "Thanks for reading this article ! Don't hesitate to leave your opinion in "
+#~ "the section bellow or if you feel generous here's my"
+#~ msgstr ""
+#~ "Merci d'avoir lu cet article !  N'hésitez pas à laisser votre avis dans "
+#~ "les commentaires ci-dessous ou si vous vous sentez généreux et prêt à "
+#~ "être gracieusement remercié de ma part, voici mon "
+
+#~ msgid "Please enable JavaScript to view the "
+#~ msgstr "Veuillez activer JavaScript pour voir les"
+
+#~ msgid "comments powered by Disqus."
+#~ msgstr "Commentaires fournis par Disqus."
+
+#~ msgid "comments powered by"
+#~ msgstr "Commentaires fournis par"
+
+#~ msgid "Previous post"
+#~ msgstr "Article précédent"
+
+#~ msgid "Next post"
+#~ msgstr "Article suivant"
+
+#~ msgid "HEY, WHAT ARE YOU DOING HERE ?!!"
+#~ msgstr "HEY, QU'EST QUE TU FAIS ICI ?!!"
+
+#~ msgid "My pandas are watching you"
+#~ msgstr "Mes pandas vous regardent."
+
+#~ msgid ""
+#~ "My pandas saw you going to a bad URL, it's ok for this time but try not "
+#~ "to do it again."
+#~ msgstr ""
+#~ "Mes pandas vous ont vu vous rendre sur une mauvaise URL, ça ira pour "
+#~ "cette fois mais que ça ne se reproduise pas."
+
+#~ msgid "There's no post for the moment"
+#~ msgstr "Il n'y a pas d'article disponible pour le moment"
+
+#~ msgid "Newer posts"
+#~ msgstr "Nouveaux articles"
+
+#~ msgid "Older posts"
+#~ msgstr "Anciens articles"
+
+#~ msgid "Preview Image for the article : "
+#~ msgstr "Image d'affiche pour l'article : "
+
+#~ msgid "Read this post"
+#~ msgstr "Lire cet article"
+
+#~ msgid "There's no post for this tag for the moment"
+#~ msgstr "Il n'y a pas d'article lié à ce tag pour le moment"
+
+#~ msgid "RSS feed - posts"
+#~ msgstr "Flux RSS - Articles"
+
+#~ msgid "RSS feed - blog posts"
+#~ msgstr "Flux RSS - Articles du blog"
 
 #~ msgid "Comments"
 #~ msgstr "Commentaires"
