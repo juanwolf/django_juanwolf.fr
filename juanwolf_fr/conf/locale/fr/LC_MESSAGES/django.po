@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.0\n"
@@ -259,12 +258,12 @@ msgid ""
 "say hi do not hesitate to send me a message or a little tweet, I will "
 "appreciate it!"
 msgstr ""
-"Bonjour !!! Je suis Jean-Loup Adde, jeune développeur web (Python/Django) de "
+"Bonjour !!! Je suis Jean-Loup Adde, développeur web (Python/Django) de "
 "%(age)s ans chez <a href=\"http://www.claranet.co.uk\">Claranet</a>.J'ai une "
-"grande passion pour toutes les technologies autour du web, dév logiciel, "
+"grande passion pour toutes les technologies autour du web, dev logiciel, "
 "intégration continue. D'ailleurs mon site est en quelques sortes mon "
 "laboratoire pour tester ces nouvelles technologies. Le chat est en node.js "
-"(qui n'est pas disponible due à quelques failles de sécurité), le blog est "
+"(qui n'est pas disponible due à quelques failles de sécurité, je l'ai remplacé par RocketChat), le blog est "
 "en django, tout ça relié à un jenkins pour déployer chaque nouvelle feature, "
 "etc... Si vous voulez en savoir plus sur les technologies utilisées, la "
 "section 'à propos' est là pour répondre à toutes vos questions !"
