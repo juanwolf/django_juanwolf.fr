@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="{% static "img/favicon.png" %}" />
     <link type="text/css" rel="stylesheet" href="{% static "stylesheets/stylesheet.css" %}" />
     <title>juanwolf.fr - {% trans "Jean-Loup Adde's resume" %}</title>
-    <meta name="description" content= "{% trans  "Hello, I am Jean-Loup Adde and I am a web / software developer. I am currently employed at Claranet as system developer." %}">
+    <meta name="description" content= "{% trans  "o/, I am Jean-Loup Adde and I am a software developer / sysops / devops. I am currently employed at Claranet as system developer." %}">
     <meta name="keywords" content="Jean-Loup,Jean-Loup Adde,coding, programming, developer, web developer,devops,juanwolf, juan wolf, video games, blog, chat, CV, resume,adde, integrator, jenkins, java, python" />
     <meta name="author" content="Jean-Loup Adde"/>
     <meta name="twitter:card" content="summary" />
@@ -82,12 +82,12 @@
         <h1><i class="fa fa-group"></i> {% trans "Where have I worked?" %}</h1>
         <ul>
           <li>
-            <p class="subtitle">{% trans "System developer at Claranet (2016-now)" %}</p>
+            <p class="subtitle">{% trans "System developer at <a href='https://claranet.com'>Claranet</a> (2016-now)" %}</p>
             <p class="information">
-            {% trans "Developing, monitoring, orchestrating, maintaining applications and servers. My missions are to simplify processes of application deployments, building processes and CI but as well developing (chatops) tools for the team. I've even been contributing to open source software like RocketChat (<a href='https://github.com/RocketChat/Rocket.Chat/pull/4623'>Pull request</a>) and building stats dashboard with influx, telegraf and grafana." %}
+            {% trans "Developing, monitoring, orchestrating, maintaining applications and servers. My missions are to simplify processes of application deployments, building processes and CI but as well developing (chatops) tools for the team. I've even been contributing to open source software like RocketChat (<a href='https://github.com/RocketChat/Rocket.Chat/pull/4623'>Pull request</a>). Currently building OpenShift clusters on AWS." %}
             </p>
             <p class="subinformation">
-            {% trans "Notions viewed: VMWare, Docker, Puppet, Ansible, Chatops, CI, Nomad, Consul, Python3, JS, Go, django, meteor, coffeescript, git." %}
+            {% trans "Notions viewed: OpenShift, Kubernetes, Docker, VMWare, AWS, Puppet, Ansible, Chatops, CI (GitLab toolchain), Nomad, Consul, Python3, JS, Go, django, meteor, coffeescript, git." %}
             </p>
           </li>
 
@@ -108,7 +108,7 @@
 
           <li>
             <p class="subtitle">{% trans "Webmaster internship for the city of Rouen (2013)" %}</p>
-            <p class="information">{% trans "Creation of a portail for 2013 summer manifestations at the city of Rouen. In charge of the front-end development of the portal and the content management with Drupal 6." %}</p>
+            <p class="information">{% trans "Creation of a portal for 2013 summer manifestations at the city of Rouen. In charge of the front-end development of the portal and the content management with Drupal 6." %}</p>
             <p class="subinformation">{% trans "Notions viewed: PHP, CSS, HTML, SASS, unix system, web management, responsive web design, Drupal 6, Drupal theming, Git" %}</p>
           </li>
         </ul>
@@ -122,7 +122,7 @@
               <p class="subtitle">juanwolf.fr <span class="link-repo">- <a target="_blank" href="https://gitlab.com/juanwolf/juanwolf.fr">code</a></span>
               </p>
               <p class="information">{% trans "My own website, <a href='https://juanwolf.fr'>juanwolf.fr</a>, where you currently find yourself and have the pleasure to browse. This project contains the resume, the portal, the responsive menu and the 404 page." %}</p>
-              <p class="subinformation">{% trans "Technologies used: HTML5, CSS3, javascript, SASS, jQuery 1.11, Font Awesome, Responsive Web Design, Git" %}
+              <p class="subinformation">{% trans "Technologies used: HTML5, CSS3, django, python3, javascript, SASS, jQuery 1.11, Font Awesome, Responsive Web Design, Git" %}
               </p>
             </li>
             <li>
@@ -146,11 +146,10 @@
             <li>
               <p class="subtitle">{% trans "Juanwolf's chat" %} <span class="link-repo">- <a target="_blank" href="https://gitlab.com/juanwolf/juanwolfs-chat">code</a></span>
               </p>
-              <p class="information">{% trans "A chat where you can talk with me (unbelievable I know)." %}</p>
+              <p class="information">{% trans "A chat where you can talk with an admin (unbelievable I know)." %}</p>
               <p class="subinformation">{% trans "Technologies used: javascript, node.js, socket.io, nodemailer, express.js, HTML5, desktop notifications, CSS3, SASS, jQuery 1.11, git." %}
               </p>
             </li>
-
             <li>
               <p class="subtitle">{% trans "juanwolf's blog app" %} <span class="link-repo">- <a target="_blank" href="https://gitlab.com/juanwolf/blogapp">code</a> - <a target="_blank" href="https://play.google.com/store/apps/details?id=fr.juanwolf.blogapp"> Google Play</a> </span>
               </p>
@@ -234,16 +233,15 @@
                 </ul>
               </li>
               <li>
-                <p class="skill-title">Java</p>
+                <p class="skill-title">Go</p>
                 <ul class="skill-rank">
                   <li><i class="fa fa-heart"></i></li>
                   <li><i class="fa fa-heart"></i></li>
                   <li><i class="fa fa-heart"></i></li>
                   <li><i class="fa fa-heart"></i></li>
-                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart-o"></i></li>
                 </ul>
               </li>
-
               <li>
                 <p class="skill-title">Javascript/TS</p>
                 <ul class="skill-rank">
@@ -255,7 +253,7 @@
                 </ul>
               </li>
               <li>
-                <p class="skill-title">Go</p>
+                <p class="skill-title">Java</p>
                 <ul class="skill-rank">
                   <li><i class="fa fa-heart"></i></li>
                   <li><i class="fa fa-heart"></i></li>
@@ -264,7 +262,6 @@
                   <li><i class="fa fa-heart-o"></i></li>
                 </ul>
               </li>
-
               <li>
                 <p class="skill-title">Bash</p>
                 <ul class="skill-rank">
@@ -316,7 +313,6 @@
                   <li><i class="fa fa-heart"></i></li>
                 </ul>
               </li>
-
               <li>
                 <p class="skill-title">jQuery</p>
                 <ul class="skill-rank">
@@ -405,7 +401,7 @@
             </ul>
           </li>
           <li class="subsection">
-            {% trans "Tools" %}
+            {% trans "Ops Tools" %}
             <ul>
               <li>
                 <p class="skill-title">Jenkins</p>
@@ -418,7 +414,17 @@
                 </ul>
               </li>
               <li>
-                <p class="skill-title">Kubernetes</p>
+                <p class="skill-title">GitLab CI</p>
+                <ul class="skill-rank">
+                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart"></i></li>
+                </ul>
+              </li>
+              <li>
+                <p class="skill-title">OpenShift Origin / Kubernetes</p>
                 <ul class="skill-rank">
                   <li><i class="fa fa-heart"></i></li>
                   <li><i class="fa fa-heart"></i></li>
@@ -435,6 +441,16 @@
                   <li><i class="fa fa-heart"></i></li>
                   <li><i class="fa fa-heart"></i></li>
                   <li><i class="fa fa-heart"></i></li>
+                </ul>
+              </li>
+              <li>
+                <p class="skill-title">Puppet</p>
+                <ul class="skill-rank">
+                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart"></i></li>
+                  <li><i class="fa fa-heart-o"></i></li>
                 </ul>
               </li>
             </ul>
